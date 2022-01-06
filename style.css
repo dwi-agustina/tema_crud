@@ -1,0 +1,76 @@
+body{
+    margin-bottom: 0px;
+    padding: 0px;
+    background: url(s.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.Login-box{
+    width: 320px;
+    height: 420px;
+    background: url(ss.jpeg);
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+}
+.pp{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 120px;
+}
+h1{
+    margin-top: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+.Login-box p{
+    margin-bottom: 0px;
+    padding: 0px;
+    font-weight: buld;
+}
+.Login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Login-box input[type="text"], [type="password"]{
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:  #000000;
+    font-size: 15px;
+}
+.Login-box button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: fff;
+    font-size: 10px;
+    border-radius: 20px;
+    background: #000000;
+
+}
+.Login-box button[type="submit"]:hover{
+    cursor: pointer;
+    background: #08ff45;
+    color : #000000;
+}
+.Login-box a{
+    text-decoration: none;
+    font-size:  14px;
+    color:  #000000;
+}
+.Login-box a:hover{
+    color: #0b7dcf;
+}
